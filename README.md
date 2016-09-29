@@ -1,6 +1,6 @@
-# Project 3 - Insta
+# Insta iOS App
 
-Insta is a photo sharing app using Parse as its backend.
+Insta is a photo sharing app that uses Parse as its backend.
 
 Time spent: 32 hours spent in total
 
@@ -35,11 +35,6 @@ The following **additional** features are implemented:
 
 - [x] Each post shows the number of comments as well as the number of likes
 - [x] Headers include the profile picture and username as well as the creation time; tapping on header goes to user profile
-
-Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
-
-1. Better ways to use AutoLayout
-2. Implementing an Explore page
 
 ## Video Walkthrough
 

@@ -99,7 +99,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         cell.delegate = self
         cell.profileButton.tag = section
-        let header = cell as! TableSectionHeader
+        let header = cell 
         
         header.headerUserLabel.text = user.username
         if let time = (post!["timestamp"]) as? String {

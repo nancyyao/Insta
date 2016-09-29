@@ -67,6 +67,6 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         resizeImageView.layer.renderInContext(UIGraphicsGetCurrentContext()!)
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
-        return newImage
+        return newImage!
     }
 }

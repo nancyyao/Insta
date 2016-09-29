@@ -49,6 +49,6 @@ class DetailViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
         let commentsVC = segue.destinationViewController as? CommentsViewController
         commentsVC!.currentMedia = detailPost["caption"] as! String
-        commentsVC!.postForComments = detailPost as! PFObject
+        commentsVC!.postForComments = detailPost as PFObject
     }
 }

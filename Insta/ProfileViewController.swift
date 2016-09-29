@@ -108,6 +108,6 @@ class ProfileViewController: UIViewController, UICollectionViewDelegate, UIColle
         resizeImageView.layer.renderInContext(UIGraphicsGetCurrentContext()!)
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
-        return newImage
+        return newImage!
     }
 }

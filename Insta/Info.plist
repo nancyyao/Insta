@@ -39,6 +39,10 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Insta need access to your photos to provide the best app experience.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Insta needs access to your camera to provide the best app experience.</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
